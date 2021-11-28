@@ -6,6 +6,15 @@ export default {
   success: 'Proses Berhasil',
   password: 'Kata Sandi',
   email: 'Email',
+  setting: {
+    account: {
+      title: 'Akun',
+      subtitle:'Konfigurasi Akun',
+      language: 'Bahasa',
+      subtitle_lang: 'Pilihan Bahasa'
+    }
+
+  },
   auth: {
     register: {
       fullname: 'Nama Lengkap',

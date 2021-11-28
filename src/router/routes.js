@@ -10,7 +10,7 @@ const routes = [
   },
   {
     path: '/setting',
-    component: () => import('layouts/Setting/Setting.vue'),
+    component: () => import('layouts/MainLayout.vue'),
       children: [
         { path: '', component: () => import('pages/Setting/Setting.vue') }
       ]

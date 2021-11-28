@@ -49,6 +49,10 @@
                 icon="eva-camera-outline"
                 to="/camera"
                 />
+              <q-route-tab
+                icon="eva-settings-outline"
+                to="/setting"
+              />
             </q-tabs>
           </q-toolbar-title>
         </q-toolbar>
