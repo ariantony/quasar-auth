@@ -43,19 +43,10 @@
         </q-item-section>
       </q-item>
       <q-separator />
-      <q-card-section horizontal>
-        <q-card-section>
-          <q-list>
-            <q-item clickable>
-              <q-item-section>
-                <div>
-                   <q-select style="max-width: max-content;" v-model="model" :options="options" label="Pilihan Bahasa" />
-                </div>
 
-              </q-item-section>
-            </q-item>
-          </q-list>
-        </q-card-section>
+      <q-card-section>
+            <q-select class="full-width" v-model="model" :options="options" label="Standard" />
+
       </q-card-section>
     </q-card>
 
