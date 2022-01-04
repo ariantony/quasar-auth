@@ -42,14 +42,23 @@
 </template>
 
 <script>
-export default {
-  name: 'Login',
-    data() {
-    return {
-      //content: this.$t('failed')
+
+import { ref, reactive } from 'vue'
+
+  export default {
+    name: 'Login',
+    setup() {
+
+      const username = ref('')
+      const password = ref('')
+
+      const book = reactive({ title: 'Vue 3 Guide' })
+      return {
+        username,
+        password
+      }
     }
   }
-}
 </script>
 
 <style lang="scss" scoped>

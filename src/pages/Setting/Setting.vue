@@ -45,7 +45,7 @@
       <q-separator />
 
       <q-card-section>
-            <q-select class="full-width" v-model="model" :options="options" label="Standard" />
+            <q-select class="full-width" v-model="model" :options="options" label="Bahasa" />
 
       </q-card-section>
     </q-card>
